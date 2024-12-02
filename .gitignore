@@ -1,0 +1,7 @@
+# ignore logs
+*.logs
+output.txt
+
+# ignore folders
+node_modules/
+dist/
