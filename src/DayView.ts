@@ -46,7 +46,6 @@ export class DayView {
                 
             } catch (error) {
                 console.log(`\nDay ${this.id} not implemented yet!`);
-                console.log(error);
             };
         }
     }
