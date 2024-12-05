@@ -50,7 +50,6 @@ export const resolveTwo = async (filename: string): Promise<any> => {
 
     let doIt = true;
     matches?.forEach((match) => {
-        console.log(match);
         if (match === "do()") {
             doIt = true;
         } else if (match === "don't()") {
